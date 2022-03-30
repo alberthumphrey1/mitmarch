@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+
+        form{
+            text-align: center;
+            width: 80%;
+            background: #779dbd;
+            border: 1px solid darkblue;
+            padding: 20px;
+            margin: auto;
+        }
+        label{
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+<h2>Emobilis Student Registration Form</h2>
+<form action="">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" placeholder="Enter First Name"><br>
+
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" placeholder="Last Name"><br>
+
+    <h4>Gender</h4>
+    <label for="mgender">Male</label>
+    <input type="radio" id="mgender" name="Male">
+
+    <label for="fgender">Female</label>
+    <input type="radio" id="fgender" name="Male"><br>
+
+    <label for="email">Email Address</label><br>
+    <input type="email" id="email" placeholder="Email"><br>
+
+    <label for="password">Password</label><br>
+    <input type="password" id="password" placeholder="Password"><br>
+
+    <label for="dob">Date of Birth</label><br>
+    <input type="date" id="dob"><br>
+
+    <label for="courses">Courses</label><br>
+    <select name="course"  id="courses">
+        <option value="mit">MIT</option>
+        <option value="python">Python</option>
+        <option value="javascript">Javascript</option>
+        <option value="laravel">Laravel</option>
+    </select><br><br>
+
+    <input type="submit" value="Register"><br>
+</form>
+
+</body>
+</html>

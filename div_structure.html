@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Div Structure</title>
+    <style>
+        #container{width: 600px ; margin: 0 auto; background: fff;}
+
+        #header{width: 100%; height: 60px; border-bottom: 1px solid #c7c7c7; background: #333;}
+
+        #logo{float: left; width: 40px; height: 40px; margin: 10px; background: #ccc;}
+
+        #top_info{text-align: center; float: right; width: 100px; height: 40px; background: #666; border: 1px solid #c7c7c7; margin: 10px;}
+
+        #navbar{height: 20px; clear: both}
+        #navbar ul{margin: 0; padding: 0; list-style-type: none;}
+        #navbar ul li{padding: 10px; float: left;}
+        #navbar ul li a{font-size: 12px; float: left; padding 0 0 0 20px}
+
+        #banner{text-align: center; background: #666; height: 120px; clear: both; padding: 20px;}
+
+        #left_col{text-align: center; float: left; width: 250px; margin-top: 10px; margin-bottom: 10px; height: 200px; padding: 20px; border: 1px solid #333; color: #FFF; background: #779dbd}
+        #right_col{text-align: center; float: right; width: 250px; margin-top: 10px; margin-bottom: 10px; height: 200px; border: 1px solid #333; color: #FFF; background: #2316db; padding: 20px;}
+
+        #footer{padding: 10px; clear: both; background: #de13d3;}
+
+
+    </style>
+</head>
+<body>
+<!--CONTAINER-->
+<div id="container">
+    <!--HEADER-->
+    <div id="header">
+        <div id="logo">Logo</div>
+        <div id="top_info">Top Info</div>
+        <div id="navbar">
+            <ul>
+                <li><a href="Link Goes Here">Home</a></li>
+                <li><a href="Link Goes Here">About Us</a></li>
+                <li><a href="Link Goes Here">Contact Us</a></li>
+                <li><a href="Link Goes Here">Activities</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--CONTENT AREA-->
+    <div id="content_area">
+        <div id="banner">Banner</div>
+        <div id="left_col">Left Column Content</div>
+        <div id="right_col">Right Column Content</div>
+    </div>
+    <!--FOOTER-->
+    <div id="footer">Footer</div>
+</div><!--END OF CONTAINER-->
+
+</body>
+</html>
